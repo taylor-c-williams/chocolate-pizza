@@ -25,6 +25,11 @@ hr {
     grid-area: hr;
 }
 
+.border {
+    width: 100%;
+    grid-area: hr;
+}
+
 .logo {
     grid-area: logo;
 }
