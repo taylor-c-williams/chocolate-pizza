@@ -1,15 +1,26 @@
 body {
     display: grid;
     grid-template-rows: 1fr 1fr;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center; 
     width: 100%;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    
 }
+
+section{
+    width:100%;
+}
+
 .title {
     display: flex;
     justify-content: left;
@@ -54,6 +65,7 @@ hr {
 .print{
     display: flex;
     justify-content: flex-end;
+
 }
 
 .title-zone{
@@ -64,8 +76,10 @@ hr {
 .image1{
     margin-top:15px;
     margin-bottom: 15px;
+    width:80%;
 }
 
 .blog-post{
-
+    display: flex;
+    width: 80%;    
 }
