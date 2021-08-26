@@ -1,7 +1,10 @@
 body {
 
 }
+html {
+    margin: 150px;
 
+}
 header {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -11,6 +14,7 @@ header {
     "logo icons"
     "hr hr"
     "blog-title print";
+    width: 100%;
 }
 
 h1 {
@@ -63,6 +67,8 @@ main{
 }
 
 .blog-title{
+    display: flex;
+    justify-content: flex-start;
     grid-area: blog-title;
 }
 
