@@ -20,3 +20,16 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+
+.logo-text {
+    display: grid;
+    grid-template-rows: 1fr .5fr;
+}
+
+h1 {
+    margin-bottom: 1px;
+}
+
+p {
+    margin-bottom: 1px;
+}
