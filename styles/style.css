@@ -1,6 +1,52 @@
 body {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+
+}
+
+header {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "logo icons"
+    "hr hr"
+    "blog-title print";
+}
+
+h1 {
+    margin-bottom: 1px;
+}
+
+hr {
+    border:0px;
+    height:100%;
+    width: 100%;
+    background-image:url('/assets/hr-img.png');
+    grid-area: hr;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: icons;
+}
+
+.logo-text {
+    grid-template-rows: 1fr .5fr;
+    margin-top: -10px;
+    
+}
+
+.main-logo{
+    margin-right:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
@@ -11,66 +57,13 @@ main{
     width: 100%;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-
-section{
-    width:100%;
-}
-
-.title {
-    display: flex;
-    justify-content: left;
-    height:80px;
-}
-
-.icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.logo-text {
-    display: grid;
-    grid-template-rows: 1fr .5fr;
-    margin-top: -10px;
-}
-
-h1 {
-    margin-bottom: 1px;
-}
-
-
-.main-logo{
-    margin-right:7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-hr {
-    display:block;
-    border:0px;
-    height:100%;
-    background-image:url('/assets/hr-img.png');
-}
-
 .blog-title{
-    display: flex;
+    grid-area: blog-title;
 }
 
 .print{
-    display: flex;
     justify-content: flex-end;
-
-}
-
-.title-zone{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-area: print;
 }
 
 .image1{
