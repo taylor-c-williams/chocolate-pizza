@@ -1,5 +1,6 @@
 body {
     display: grid;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     width: 100%;
 }
@@ -12,7 +13,6 @@ header {
 .title {
     display: flex;
     justify-content: left;
-
     height:80px;
 }
 
@@ -32,9 +32,6 @@ h1 {
     margin-bottom: 1px;
 }
 
-p {
-    margin-bottom: 1px;
-}
 
 .main-logo{
     margin-right:7px;
@@ -43,10 +40,32 @@ p {
     align-items: center;
 }
 
-
 hr {
     display:block;
     border:0px;
     height:100%;
     background-image:url('/assets/hr-img.png');
+}
+
+.blog-title{
+    display: flex;
+}
+
+.print{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-zone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image1{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.blog-post{
+
 }
