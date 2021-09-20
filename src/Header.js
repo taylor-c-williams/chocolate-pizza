@@ -14,7 +14,7 @@ export default class Header extends Component {
                             The best food blog ever.
             </div>
           </div>
-          <div className="icons">
+          <div className="ButtonList">
             <img className="facebook-logo" src="fb-icon.png" alt="facebook icon" />
             <img className="twitter-logo" src="twit-icon.png" alt ="twitter logo"/>
             <img className="google-logo" src="gp-icon.png" alt="google logo" />
