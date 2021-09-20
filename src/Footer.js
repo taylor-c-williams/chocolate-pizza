@@ -4,6 +4,10 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
+        <section className="sub-footer">
+          <div className="repeating-img"></div>
+          <div className="vanessa"></div>
+        </section>
         <footer>
           <section class='foot-image'>
             <div>

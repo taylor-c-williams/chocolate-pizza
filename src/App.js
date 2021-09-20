@@ -10,8 +10,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Body />
-        <Footer />
-        
+        <Footer />        
       </div>
     );
   }
