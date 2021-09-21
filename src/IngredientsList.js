@@ -14,4 +14,4 @@ export default class IngredientsList extends Component {
       </div>
     );
   }
-} 
+}
