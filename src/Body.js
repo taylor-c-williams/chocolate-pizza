@@ -4,17 +4,13 @@ import Recipe from './Recipe.js';
 import IngredientsList from './IngredientsList.js';
 import Ingredients from './data.js';
 
-
 export default class Body extends Component {
   render() {
     return (
       <div>
         <main>
           { <ImageSection /> }
-          { <Recipe /> }
-          <section className="image1">
-            <img src="list-bg.png" alt="recipe card" />
-          </section>
+          { <Recipe /> }    
           { Ingredients.map(Ingredient =>
             <IngredientsList
               name = {Ingredient.name}
