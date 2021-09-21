@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class IngredientsList extends Component {
   render() {
     return (
-      <div className = "Card">
+      <div>
         
         <ul>
           <li>
@@ -14,4 +14,4 @@ export default class IngredientsList extends Component {
       </div>
     );
   }
-}
+} 
